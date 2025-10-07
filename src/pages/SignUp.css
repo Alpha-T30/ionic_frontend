@@ -1,0 +1,11 @@
+/* src/pages/SignUp.css */
+IonContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+IonItem {
+  margin-bottom: 15px;
+}

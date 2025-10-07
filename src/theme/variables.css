@@ -1,2 +1,7 @@
+/* Hide tab bar on SignIn and SignUp pages */
+body.ion-page-signin #main-tab-bar,
+body.ion-page-signup #main-tab-bar {
+  display: none;
+}
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
