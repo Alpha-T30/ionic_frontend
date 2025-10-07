@@ -10,7 +10,7 @@ root.render(
     domain="dev-uiv6n5n1fp6ghq3e.us.auth0.com"
     clientId="ySgUSZyGbqUIfcg1QGLFGX9hliPtxpOx"
     authorizationParams={{
-      redirect_uri: "http://192.168.31.39:8100/tab1",
+      redirect_uri: "https://ionic-auth0-test.netlify.app/tab1",
     }}
   >
     <App />

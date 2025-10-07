@@ -29,7 +29,9 @@ const Tab1: React.FC = () => {
             color="danger"
             onClick={() =>
               logout({
-                logoutParams: { returnTo: "http://192.168.31.39:8100/signin" },
+                logoutParams: {
+                  returnTo: "https://ionic-auth0-test.netlify.app/signin",
+                },
               })
             }
           >
