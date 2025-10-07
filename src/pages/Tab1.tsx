@@ -5,7 +5,11 @@ import "./Tab1.css";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Tab1: React.FC = () => {
+  const url = "https://ionic-auth0-test.netlify.app/signin";
+  // const url = "http://localhost:8100/signin";
+
   const { logout, user, isAuthenticated, isLoading } = useAuth0();
+  console.log("isAuthenticated", isAuthenticated);
 
   if (isLoading) {
     return <div>Loading ...</div>;
@@ -30,7 +34,7 @@ const Tab1: React.FC = () => {
             onClick={() =>
               logout({
                 logoutParams: {
-                  returnTo: "https://ionic-auth0-test.netlify.app/signin",
+                  returnTo: url,
                 },
               })
             }
